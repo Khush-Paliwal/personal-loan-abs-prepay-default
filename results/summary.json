@@ -1,0 +1,202 @@
+{
+  "vintage_lifetime": [
+    {
+      "vintage": 2012,
+      "lifetime_cnl": 0.0714,
+      "avg_cpr": 0.2243,
+      "avg_cdr": 0.063
+    },
+    {
+      "vintage": 2013,
+      "lifetime_cnl": 0.0599,
+      "avg_cpr": 0.2511,
+      "avg_cdr": 0.059
+    },
+    {
+      "vintage": 2014,
+      "lifetime_cnl": 0.0668,
+      "avg_cpr": 0.2605,
+      "avg_cdr": 0.0679
+    },
+    {
+      "vintage": 2015,
+      "lifetime_cnl": 0.0753,
+      "avg_cpr": 0.2578,
+      "avg_cdr": 0.0724
+    }
+  ],
+  "validation_2014": {
+    "True": {
+      "train": "2012-2013",
+      "test_vintage": 2014,
+      "use_incentive": true,
+      "train_loan_months": 1436921,
+      "lgd": 0.89305790703874,
+      "actual_cnl": 0.06676217241284162,
+      "actual_avg_cpr": 0.2605400084499681,
+      "actual_avg_cdr": 0.06792886134692155,
+      "model_at_origination": {
+        "cpr_mae_pp": 3.990917070861465,
+        "cdr_mae_pp": 1.4320910739810477,
+        "lifetime_cnl": 0.06046737230080148,
+        "cnl_error_pp": -0.6294800112040138
+      },
+      "naive_at_origination": {
+        "cpr_mae_pp": 2.6088809176879573,
+        "cdr_mae_pp": 0.844623496455372,
+        "lifetime_cnl": 0.06330913366368164,
+        "cnl_error_pp": -0.34530387491599757
+      },
+      "model_updated_m12": {
+        "cpr_mae_pp": 1.835210500529172,
+        "cdr_mae_pp": 1.6963151294676075,
+        "lifetime_cnl": 0.05935551911514187,
+        "cnl_error_pp": -0.7406653297699746,
+        "ae_prepay": 1.1705636588687327,
+        "ae_default": 1.0134037148482382
+      },
+      "naive_updated_m12": {
+        "cpr_mae_pp": 4.027377041008032,
+        "cdr_mae_pp": 1.0337643352927364,
+        "lifetime_cnl": 0.06090935989170285,
+        "cnl_error_pp": -0.585281252113877,
+        "ae_prepay": 1.2447062815165182,
+        "ae_default": 1.0053058657915857
+      },
+      "auc_lifetime_default_model": 0.6697420275270357,
+      "auc_lifetime_default_subgrade": 0.6595703557234301,
+      "auc_lifetime_prepay_model": 0.5890921875378392,
+      "wal_actual_yrs": 1.3002521011697532,
+      "wal_model_orig_yrs": 1.3245911603543823
+    },
+    "False": {
+      "train": "2012-2013",
+      "test_vintage": 2014,
+      "use_incentive": false,
+      "train_loan_months": 1436921,
+      "lgd": 0.89305790703874,
+      "actual_cnl": 0.06676217241284162,
+      "actual_avg_cpr": 0.2605400084499681,
+      "actual_avg_cdr": 0.06792886134692155,
+      "model_at_origination": {
+        "cpr_mae_pp": 2.1922709462679086,
+        "cdr_mae_pp": 1.3190714801767427,
+        "lifetime_cnl": 0.06035415607454648,
+        "cnl_error_pp": -0.6408016338295137
+      },
+      "naive_at_origination": {
+        "cpr_mae_pp": 2.6088809176879573,
+        "cdr_mae_pp": 0.844623496455372,
+        "lifetime_cnl": 0.06330913366368164,
+        "cnl_error_pp": -0.34530387491599757
+      },
+      "model_updated_m12": {
+        "cpr_mae_pp": 3.501947733880602,
+        "cdr_mae_pp": 1.5557993821268656,
+        "lifetime_cnl": 0.059488036989081665,
+        "cnl_error_pp": -0.7274135423759952,
+        "ae_prepay": 1.2000309420062676,
+        "ae_default": 1.0187791626819118
+      },
+      "naive_updated_m12": {
+        "cpr_mae_pp": 4.027377041008032,
+        "cdr_mae_pp": 1.0337643352927364,
+        "lifetime_cnl": 0.06090935989170285,
+        "cnl_error_pp": -0.585281252113877,
+        "ae_prepay": 1.2447062815165182,
+        "ae_default": 1.0053058657915857
+      },
+      "auc_lifetime_default_model": 0.66855380575694,
+      "auc_lifetime_default_subgrade": 0.6595703557234301,
+      "auc_lifetime_prepay_model": 0.5897042275225222,
+      "wal_actual_yrs": 1.3002521011697532,
+      "wal_model_orig_yrs": 1.3229724745660298
+    }
+  },
+  "chosen_use_incentive": true,
+  "test_2015": {
+    "train": "2012-2013-2014",
+    "test_vintage": 2015,
+    "use_incentive": true,
+    "train_loan_months": 2992861,
+    "lgd": 0.888969341618221,
+    "actual_cnl": 0.07529520895120098,
+    "actual_avg_cpr": 0.25783974723558334,
+    "actual_avg_cdr": 0.07239950950180335,
+    "model_at_origination": {
+      "cpr_mae_pp": 2.5338266930435474,
+      "cdr_mae_pp": 1.3769929990286727,
+      "lifetime_cnl": 0.06288204678106774,
+      "cnl_error_pp": -1.2413162170133245
+    },
+    "naive_at_origination": {
+      "cpr_mae_pp": 1.475569529520136,
+      "cdr_mae_pp": 0.9093645740263263,
+      "lifetime_cnl": 0.06359113479930384,
+      "cnl_error_pp": -1.1704074151897141
+    },
+    "model_updated_m12": {
+      "cpr_mae_pp": 2.4893622972059095,
+      "cdr_mae_pp": 0.8133743700476148,
+      "lifetime_cnl": 0.07336896476362513,
+      "cnl_error_pp": -0.19262441875758513,
+      "ae_prepay": 1.0353253602524994,
+      "ae_default": 1.1963367442030413
+    },
+    "naive_updated_m12": {
+      "cpr_mae_pp": 1.5275842983323349,
+      "cdr_mae_pp": 0.5929815748700656,
+      "lifetime_cnl": 0.07240325106097281,
+      "cnl_error_pp": -0.28919578902281695,
+      "ae_prepay": 1.1049575107937193,
+      "ae_default": 1.1623130277684757
+    },
+    "auc_lifetime_default_model": 0.6879892620917953,
+    "auc_lifetime_default_subgrade": 0.6786417383122245,
+    "auc_lifetime_prepay_model": 0.5894498969048972,
+    "wal_actual_yrs": 1.2930251356810736,
+    "wal_model_orig_yrs": 1.312503409715668
+  },
+  "prepay_odds_per_1pp_incentive": 1.0474200248718262,
+  "default_odds_per_20pt_fico": 0.8905805349349976,
+  "prepay_seasonality_index": {
+    "1": 0.967,
+    "2": 1.057,
+    "3": 1.223,
+    "4": 1.005,
+    "5": 1.015,
+    "6": 1.011,
+    "7": 1.101,
+    "8": 0.967,
+    "9": 0.919,
+    "10": 1.009,
+    "11": 0.841,
+    "12": 0.885
+  },
+  "basel": {
+    "pool_pd12": 0.03846001842997907,
+    "lgd": 0.888969341618221,
+    "capital_pct_of_ead": 9.896919609623291,
+    "rwa_density_pct": 123.71149512029113,
+    "observed_12m_default_rate": 0.04667116946677181
+  },
+  "cnl_stress_2015": [
+    {
+      "default_multiplier": 1.0,
+      "projected_cnl": 0.06288204678106776
+    },
+    {
+      "default_multiplier": 1.5,
+      "projected_cnl": 0.0908619615446481
+    },
+    {
+      "default_multiplier": 2.0,
+      "projected_cnl": 0.11687380755265878
+    },
+    {
+      "default_multiplier": 3.0,
+      "projected_cnl": 0.16378928640620458
+    }
+  ],
+  "cnl_actual_2015": 0.07529520895120098
+}
